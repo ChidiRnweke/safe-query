@@ -1,1 +1,13 @@
-dist/*.test.js
+dist/**/*.test.js
+
+# ignore the .ts files
+*.ts
+
+# include the .d.ts files
+!*.d.ts
+
+# include the .d.ts files
+*.test.d.ts
+
+jest.config.js
+tsconfig.json
