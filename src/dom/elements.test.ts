@@ -1,5 +1,4 @@
-import { getElementOrThrow, getElementOrElse, querySelectorAllOrThrow, getElementByIdOrThrow, getElementByIdOrElse, getElementsByClassNameOrThrow } from "../dom/elements";
-import { describe, expect, test } from '@jest/globals';
+import { getElementOrThrow, getElementOrElse, querySelectorAllOrThrow, getElementByIdOrThrow, getElementByIdOrElse, getElementsByClassNameOrThrow } from "./elements";
 
 describe('DOM utilities', () => {
     afterEach(() => {

@@ -1,5 +1,4 @@
-import { getAttributeOrThrow, getAttributeOrElse, removeAttributeOrThrow, setDataAttribute, getDataAttributeOrThrow, getDataAttributeOrElse } from "../dom/attributes";
-import { describe, expect, test } from '@jest/globals';
+import { getAttributeOrThrow, getAttributeOrElse, removeAttributeOrThrow, setDataAttribute, getDataAttributeOrThrow, getDataAttributeOrElse } from "./attributes";
 
 describe('attributes.ts', () => {
     let testElement!: HTMLElement;

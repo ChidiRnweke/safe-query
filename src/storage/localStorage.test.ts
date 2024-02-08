@@ -1,5 +1,4 @@
 import { getLocalStorageOrThrow, getLocalStorageOrElse, getLocalStorageParsedOrElse, removeLocalStorageItemOrThrow } from "../storage/localStorage";
-import { describe, expect, test } from '@jest/globals';
 
 describe('localStorage utilities', () => {
     const testKey = 'testKey';
