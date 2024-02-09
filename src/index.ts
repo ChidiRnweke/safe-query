@@ -1,3 +1,18 @@
-export * from "./dom/attributes"
-export * from "./dom/elements"
-export * from "./storage/localStorage"
+export {
+  getAttributeOrThrow,
+  getAttributeOrElse,
+  getDataAttributeOrElse,
+  getDataAttributeOrThrow,
+} from "./dom/attributes";
+export {
+  getElementByIdOrElse,
+  getElementOrElse,
+  getElementByIdOrThrow,
+  getElementOrThrow,
+  getElementsByClassNameOrThrow,
+} from "./dom/elements";
+export {
+  getLocalStorageOrElse,
+  getLocalStorageOrThrow,
+  getLocalStorageParsedOrElse,
+} from "./storage/localStorage";
