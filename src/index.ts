@@ -3,16 +3,16 @@ export {
   getAttributeOrElse,
   getDataAttributeOrElse,
   getDataAttributeOrThrow,
-} from "./dom/attributes";
+} from "./dom/attributes.js";
 export {
   getElementByIdOrElse,
   getElementOrElse,
   getElementByIdOrThrow,
   getElementOrThrow,
   getElementsByClassNameOrThrow,
-} from "./dom/elements";
+} from "./dom/elements.js";
 export {
   getLocalStorageOrElse,
   getLocalStorageOrThrow,
   getLocalStorageParsedOrElse,
-} from "./storage/localStorage";
+} from "./storage/localStorage.js";
