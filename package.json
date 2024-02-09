@@ -1,6 +1,6 @@
 {
   "name": "safe-query",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A zero dependency library that provides a thin wrapper around common DOM manipulations to make errors appear sooner.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
