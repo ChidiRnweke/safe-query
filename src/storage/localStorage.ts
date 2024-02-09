@@ -23,8 +23,7 @@ export const getLocalStorageOrElse = (
   alternative: string,
 ): string => {
   const value = localStorage.getItem(key);
-  const result = value ? value : alternative;
-  return result;
+  return value ?? alternative;
 };
 
 /**

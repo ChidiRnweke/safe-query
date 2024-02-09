@@ -36,8 +36,7 @@ export const getElementOrElse = <T extends Element>(
   alternative: T,
 ): T => {
   const element = source.querySelector<T>(selector);
-  const result = element ? element : alternative;
-  return result;
+  return element ?? alternative;
 };
 
 /**
@@ -97,8 +96,7 @@ export const getElementByIdOrElse = <T extends HTMLElement>(
   alternative: T,
 ): T => {
   const element = source.getElementById(id);
-  const res = element ? element : alternative;
-  return res as T;
+  return (element ?? alternative) as T;
 };
 
 /**

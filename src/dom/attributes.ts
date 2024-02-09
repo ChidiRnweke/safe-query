@@ -29,8 +29,7 @@ export const getAttributeOrElse = (
   alternative: string,
 ): string => {
   const attribute = source.getAttribute(attributeName);
-  const result = attribute ? attribute : alternative;
-  return result;
+  return attribute ?? alternative;
 };
 
 /**
